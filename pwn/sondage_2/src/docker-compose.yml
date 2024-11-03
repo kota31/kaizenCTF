@@ -1,0 +1,7 @@
+services:
+  pwn:
+    build: .
+    image: sondage_2
+    ports:
+      - "5556:5556"
+    restart: always

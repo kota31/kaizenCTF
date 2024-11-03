@@ -1,0 +1,7 @@
+services:
+  bashbashbaby:
+    build: .
+    image: bashbashbaby
+    ports:
+      - "2222:22"
+    restart: always

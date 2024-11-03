@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kaizen Solutions - Hackers</title>
+    <style>
+        /* Styles de base */
+        body {
+            background-color: #0f0f0f; /* Fond noir pour le style rétro */
+            color: #32cd32; /* Vert néon (inspiré par le thème hacker rétro) */
+            font-family: "Courier New", Courier, monospace;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 4em;
+            margin-top: 100px;
+            text-shadow: 0 0 10px #32cd32;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+
+        .container {
+            border: 2px solid #32cd32; /* Bordure verte néon */
+            padding: 50px;
+            margin: 100px auto;
+            max-width: 800px;
+            background-color: rgba(50, 205, 50, 0.1); /* Fond léger avec transparence */
+        }
+
+        a {
+            color: #32cd32;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-shadow: 0 0 10px #32cd32;
+        }
+
+        .glitch {
+            animation: glitch 1.5s infinite;
+        }
+
+        /* Animation glitch pour l'effet rétro */
+        @keyframes glitch {
+            0% {
+                text-shadow: 2px 2px 0 #32cd32, -2px -2px 0 #ff00ff, 2px -2px 0 #00ffff;
+            }
+            20% {
+                text-shadow: 2px 2px 0 #ff00ff, -2px -2px 0 #00ffff, -2px 2px 0 #32cd32;
+            }
+            40% {
+                text-shadow: -2px 2px 0 #00ffff, 2px -2px 0 #ff00ff, -2px -2px 0 #32cd32;
+            }
+            60% {
+                text-shadow: 2px 2px 0 #32cd32, -2px -2px 0 #ff00ff, 2px -2px 0 #00ffff;
+            }
+            80% {
+                text-shadow: -2px 2px 0 #32cd32, 2px -2px 0 #00ffff, -2px -2px 0 #ff00ff;
+            }
+            100% {
+                text-shadow: 2px 2px 0 #ff00ff, -2px -2px 0 #32cd32, 2px -2px 0 #00ffff;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="glitch">Kaizen Hackers</h1>
+        <p>Notre site est en construction ...</p>
+        <p>Repassez une prochaine fois pour connaître nos derniers hacks !</p>
+    </div>
+
+<!-- to be tested for the next release
+
+<script>
+  var xhr = new XmlHttpRequest();
+  xhr.open('GET','/ctf?lang=fr',true);
+
+  xhr.onreadystatechange = function() { // to be defined };
+
+  xhr.send();
+</script>
+
+-->
+
+</body>
+</html>

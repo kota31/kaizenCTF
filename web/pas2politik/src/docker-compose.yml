@@ -1,0 +1,8 @@
+services:
+  Pas2Politik:
+    build: .
+    image: pas2politik
+    container_name: pas2politik
+    ports:
+      - "5001:5001"
+    restart: always

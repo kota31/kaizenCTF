@@ -1,0 +1,3 @@
+# I hope these comments will be removed by the CI
+echo Mr Doe told me to block these characters : \'\&\;\|\#\`!\" and $ ofcourse !
+# Nothing here !
